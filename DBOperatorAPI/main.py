@@ -24,8 +24,8 @@ async def agent_executor(question: str):
     llm = ChatOpenAI(model="gpt-4-turbo", temperature=1)
     prompt_template = """You are a Chat Bot called QueryBuddy that is useful for managing and maintaining database.
     Use the tool for generating and running PostgreSQL queries. Do not assume values or parameters. If something is not clear then ask the user.
-    Note that there's only one table called userdata with 4 columns. If the user says key it's primary key column and value is the data column. 
-    The other 2 columns are created_datetime and updated_datetime which is handles using a trigger in the database itself. Send the question to the tool as is.
+    Note that there's only one table called userdata with 4 columns. If the user says key it's primary key column and value is the other column. 
+    The last 2 columns are created_datetime and updated_datetime which is handles using a trigger in the database itself. Send the question to the tool as is.
     Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, as well as what key and value are 
     involved, and status and message.
     Question: {input}

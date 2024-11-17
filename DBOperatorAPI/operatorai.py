@@ -51,7 +51,7 @@ def run_query(query):
 def operator_agent(question: str):
     qna_template = """
     Based on the schema below, question, PostgreSQL query, and PostgreSQL response, write a natural language response.
-    Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, as well as what key and value are 
+    Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, status, as well as what key and value are 
     involved:
     {schema}
 

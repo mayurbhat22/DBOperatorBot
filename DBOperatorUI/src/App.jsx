@@ -67,7 +67,7 @@ function App() {
           <div className="upperSide">
             <div className="upperSideTop">
               <img src={logo} alt="" className="logo" />
-              <span className="brand">Query Buddy</span>
+              <span className="brand">QueryBuddy</span>
             </div>
             <button
               className="midBtn"

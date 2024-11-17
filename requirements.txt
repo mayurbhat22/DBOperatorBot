@@ -3,5 +3,5 @@ uvicorn
 langchain 
 langchain-openai 
 langchain_community 
-psycopg2
+psycopg2-binary
 python-dotenv

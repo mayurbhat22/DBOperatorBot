@@ -105,9 +105,11 @@ body {
   margin-left: -3rem;
   margin-right: -3rem;
 }
+
 .chats::-webkit-scrollbar {
   display: none;
 }
+
 .chat {
   margin: 1rem;
   margin-bottom: 3rem;
@@ -118,6 +120,9 @@ body {
   justify-content: space-between;
   text-align: justify;
   max-width: 70%;
+  overflow: scroll;
+  flex-wrap: wrap;
+  word-break: break-word;
 }
 
 .chat.bot {
@@ -153,6 +158,10 @@ body {
 .txt {
   color: white;
   word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .chatFooter {

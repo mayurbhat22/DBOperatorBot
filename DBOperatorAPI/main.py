@@ -27,7 +27,7 @@ async def agent_executor(question: str):
     Note that there's only one table called userdata with 4 columns. If the user says key it's primary key column and value is the other column. 
     The last 2 columns are created_datetime and updated_datetime which is handled using a trigger that is created in the database itself. Send the question to the tool as is.
     Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, as well as what key and value are 
-    involved, and status and message.
+    involved.
     Question: {input}
     """
 

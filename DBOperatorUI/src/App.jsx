@@ -67,7 +67,7 @@ function App() {
           <div className="upperSide">
             <div className="upperSideTop">
               <img src={logo} alt="" className="logo" />
-              <span className="brand">QueryBuddy</span>
+              <span className="brand">Query Buddy</span>
             </div>
             <button
               className="midBtn"
@@ -76,7 +76,7 @@ function App() {
               }}
             >
               <img src={addBtn} alt="" className="addBtn" />
-              NewChat
+              New Chat
             </button>
           </div>
         </div>

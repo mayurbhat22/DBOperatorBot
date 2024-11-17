@@ -105,11 +105,9 @@ body {
   margin-left: -3rem;
   margin-right: -3rem;
 }
-
 .chats::-webkit-scrollbar {
   display: none;
 }
-
 .chat {
   margin: 1rem;
   margin-bottom: 3rem;
@@ -124,7 +122,9 @@ body {
   flex-wrap: wrap;
   word-break: break-word;
 }
-
+.chat::-webkit-scrollbar {
+  display: none;
+}
 .chat.bot {
   background: rgba(28, 30, 58, 1);
   border-radius: 0.5rem;
@@ -163,7 +163,9 @@ body {
   max-width: 100%;
   overflow-wrap: break-word;
 }
-
+.txt::-webkit-scrollbar {
+  display: none;
+}
 .chatFooter {
   margin-top: auto;
   width: 100%;
@@ -204,7 +206,7 @@ body {
 }
 
 .typing .dot {
-  background-color: #0766AD;
+  background-color: #0766ad;
   border-radius: 50%;
   width: 8px;
   height: 8px;

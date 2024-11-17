@@ -52,7 +52,7 @@ def operator_agent(question: str):
     qna_template = """
     Based on the schema below, question, PostgreSQL query, and PostgreSQL response, write a natural language response. If the updated/deleted record is 0, then inform that the key doesn't exists.
     Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, as well as what key and value are 
-    involved:
+    involved, and status and message:
     {schema}
 
     Question: {question}

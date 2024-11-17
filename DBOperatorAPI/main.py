@@ -25,7 +25,7 @@ async def agent_executor(question: str):
     prompt_template = """You are a Chat Bot called QueryBuddy that is useful for managing and maintaining database.
     Use the tool for generating and running PostgreSQL queries. Do not assume values or parameters. If something is not clear then ask the user.
     Note that there's only one table called userdata. If the user says key it's primary key column and if the user says value/data it is the data column. Send the question to the tool as is.
-    Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, as well as what key and value are 
+    Respond in a structured format such as JSON if successfull operation/request. The structured response when successfull should indicate what action is requested such as insert, update, or delete, status, as well as what key and value are 
     involved.
     Question: {input}
     """

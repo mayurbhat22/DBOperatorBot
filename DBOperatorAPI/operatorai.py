@@ -33,7 +33,7 @@ def operator_sql_agent():
     """
     sql_prompt = ChatPromptTemplate.from_template(sql_template)
 
-    llm = ChatOpenAI(model="gpt-4-turbo", temperature=1)
+    llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=1)
     sql_chain = (
         RunnablePassthrough.assign(schema = get_schema)
         | sql_prompt

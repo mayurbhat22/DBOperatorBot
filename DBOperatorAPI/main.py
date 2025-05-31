@@ -21,7 +21,7 @@ tools = [
 ]
 
 async def agent_executor(question: str):
-    llm = ChatOpenAI(model="gpt-4-turbo", temperature=1)
+    llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=1)
     prompt_template = """You are a Chat Bot called QueryBuddy that is useful for managing and maintaining database.
     Use the tool for generating and running PostgreSQL queries. Do not assume values or parameters. If something is not clear then ask the user.
     Note that there's only one table called userdata. If the user says key it's primary key column and if the user says value/data it is the data column. Send the question to the tool as is.

@@ -10,6 +10,7 @@ import userIcon from "./assets/user-icon.png";
 import gptImgLogo from "./assets/chatgptLogo.svg";
 import user from "./assets/user.png";
 import logo from "./assets/QB.jpg";
+const API = import.meta.env.VITE_API_URL;
 function App() {
   const msgEnd = useRef(null);
   const [input, setInput] = useState("");
@@ -30,7 +31,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://queryaichat.azurewebsites.net/ask",
+        import.meta.env.VITE_API_URL + "/ask",
         JSON.stringify({
           question: input,
         })

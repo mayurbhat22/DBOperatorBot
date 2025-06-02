@@ -57,9 +57,9 @@ QueryBuddy is a full-stack AI assistant that lets users interact with a PostgreS
 
 ## 🖼️ Screenshots
 
-    ![Insert](screenshot/insert.png)
-    ![Update](screenshot/update.png)
-    ![Select All](screenshot/select_all.png)
+![Insert](screenshot/insert.png)
+![Update](screenshot/update.png)
+![Select All](screenshot/select_all.png)
 
 ---
 

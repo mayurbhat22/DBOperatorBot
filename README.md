@@ -1,6 +1,6 @@
 # 🧠 QueryBuddy – AI-Powered Database Assistant
 
-[Live Demo](https://db-operator-bot.vercel.app)  
+[Live Demo](https://querybuddy.vercel.app)  
 
 QueryBuddy is a full-stack AI assistant that lets users interact with a PostgreSQL database using natural language. Powered by OpenAI + LangChain, it converts chat-style queries into SQL operations (insert, update, select) on a single `userdata` table.
 
@@ -89,5 +89,5 @@ QueryBuddy is a full-stack AI assistant that lets users interact with a PostgreS
 
 ## ✅ Deployed URLs
 
-- Frontend: https://db-operator-bot.vercel.app  
+- Frontend: https://querybuddy.vercel.app
 - Backend: https://dboperatorbot.onrender.com

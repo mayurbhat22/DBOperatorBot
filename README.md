@@ -57,11 +57,9 @@ QueryBuddy is a full-stack AI assistant that lets users interact with a PostgreS
 
 ## 🖼️ Screenshots
 
-Images should be placed inside a `/screenshots` folder:
-
-    ![Insert](screenshots/insert.png)
-    ![Update](screenshots/update.png)
-    ![Select All](screenshots/select_all.png)
+    ![Insert](screenshot/insert.png)
+    ![Update](screenshot/update.png)
+    ![Select All](screenshot/select_all.png)
 
 ---
 

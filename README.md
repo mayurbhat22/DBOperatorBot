@@ -50,15 +50,12 @@ QueryBuddy is a full-stack AI assistant that lets users interact with a PostgreS
 ## 🧪 Example Prompts
 
 - Insert key Mayur and value 2025  
-- Update key Mayur to value 1999  
-- Give me all the key value pair in the table  
-
----
-
-## 🖼️ Screenshots
-
 ![Insert](screenshot/insert.png)
+
+- Update key Mayur to value 1999  
 ![Update](screenshot/update.png)
+
+- Give me all the key value pair in the table  
 ![Select All](screenshot/select_all.png)
 
 ---
